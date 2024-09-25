@@ -8,3 +8,4 @@ return reradiation_level, snr
 
 #generating
 def generate_report(reradiation_level, snr):
+pdf = FPDF()
