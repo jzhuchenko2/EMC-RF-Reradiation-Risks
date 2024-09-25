@@ -7,3 +7,4 @@ snr = round(random.uniform(20, 35), 2)
 return reradiation_level, snr
 
 #generating
+def generate_report(reradiation_level, snr):
