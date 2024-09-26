@@ -14,4 +14,4 @@ pdf.add_page()
 pdf.set_font("Arial", size=12)
 pdf.cell(200, 10, txt="EMC Simulation Report", ln=True, align="C")
 
-pdf.cell(200, 10, txt=f"Reradiation Level: {reradiation_level} V/m", ln=True)
+pdf.cell(200, 10, txt=f"Reradiation Level: {reradiation_level} V/m", ln=False)
