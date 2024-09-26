@@ -12,3 +12,4 @@ pdf = FPDF()
 pdf.add_page()
 
 pdf.set_font("Arial", size=12)
+pdf.cell(200, 10, txt="EMC Simulation Report", ln=True, align="C")
