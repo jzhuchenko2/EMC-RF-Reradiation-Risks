@@ -10,3 +10,5 @@ return reradiation_level, snr
 def generate_report(reradiation_level, snr):
 pdf = FPDF()
 pdf.add_page()
+
+pdf.set_font("Arial", size=12)
