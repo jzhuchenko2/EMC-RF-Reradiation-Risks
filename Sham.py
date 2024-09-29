@@ -16,4 +16,4 @@ pdf.cell(200, 10, txt="EMC Simulation Report", ln=True, align="C")
 
 pdf.cell(200, 10, txt=f"Reradiation Level: {reradiation_level} V/m", ln=False)
 pdf.cell(200, 10, txt=f"Signal-to-Noise Ratio (SNR): {snr} dB", ln=True)
-compliance = "PASS" if reradiation_level < 1 and snr > 25 else "TRUE"
+compliance = "PASS" if reradiation_level < 1 and snr > 25 else "FALSE"
