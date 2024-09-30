@@ -19,3 +19,6 @@ pdf.cell(200, 10, txt=f"Signal-to-Noise Ratio (SNR): {snr} dB", ln=True)
 compliance = "PASS" if reradiation_level < 1 and snr > 25 else "FALSE"
 pdf.cell(200, 10, txt=f"Compliance Status: {compliance}", ln=True)
 pdf.output("EMC_Report.pdf")
+
+# Simulate and create report
+reradiation, snr = run_emc_simulation()
