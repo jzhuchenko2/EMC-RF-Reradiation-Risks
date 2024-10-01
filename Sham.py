@@ -23,3 +23,4 @@ pdf.output("EMC_Report.pdf")
 # Simulate and create report
 reradiation, snr = run_emc_simulation()
 generate_report(reradiation, snr)
+print("Report Generated.")
